@@ -1,0 +1,195 @@
+/* Reset de estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #0a0a0a; /* Fundo escuro */
+  color: #ffffff; /* Texto branco */
+  padding: 0 5%;
+}
+
+/* Container centralizado */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #864CF7; 
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Seções principais */
+main {
+  padding: 2rem 0;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Títulos das seções */
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #864CF7;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.project h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.project a {
+  color: #864CF7;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para projetos */
+.project {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project a {
+  color: #864CF7;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.project p {
+  margin-bottom: 0.5rem;
+}
+
+/* Estilos para lista de habilidades */
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Contato */
+.contact p {
+  margin-bottom: 0.5rem;
+}
+
+/* Rodapé */
+footer {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Design Responsivo */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  .project h3 {
+    font-size: 1.2rem;
+  }
+
+  .project p {
+    font-size: 0.9rem;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  section h2 {
+    font-size: 1.3rem;
+  }
+
+  .project h3 {
+    font-size: 1rem;
+  }
+
+  .project p {
+    font-size: 0.8rem;
+  }
+
+  ul li {
+    font-size: 0.8rem;
+  }
+
+  .contact p {
+    font-size: 0.8rem;
+  }
+}
